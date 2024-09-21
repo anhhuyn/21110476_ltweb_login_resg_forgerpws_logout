@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="logout">Logout</a>
-	<h1>Trang chủ của user</h1>
+
 </body>
 </html>

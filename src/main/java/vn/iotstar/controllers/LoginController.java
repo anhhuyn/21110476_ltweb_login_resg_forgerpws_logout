@@ -15,7 +15,7 @@ import vn.iotstar.services.impl.UserServiceImpl;
 import vn.iotstar.utils.Constant;
 
 
-@WebServlet(urlPatterns = { "/login" })
+@WebServlet(name = "login", urlPatterns = { "/login" })
 
 public class LoginController extends HttpServlet {
 
