@@ -72,21 +72,21 @@ a {
 			<hr>
 
 			<label for="username"><b>Tên đăng nhập</b></label> <input type="text"
-				placeholder="Tên đăng nhập" name="uname" id="uname" required>
+				placeholder="Nhập Tên đăng nhập" name="uname" id="uname" required>
 
 			<label for="fullname"><b>Họ tên</b></label> <input type="text"
-				placeholder="Họ tên" name="fullname" id="fullname" required>
+				placeholder="Nhập Họ tên" name="fullname" id="fullname" required>
 
 			<label for="email"><b>Email</b></label> <input type="text"
-				placeholder="Enter Email" name="email" id="email" required>
+				placeholder="Nhập Email" name="email" id="email" required>
 
 			<label for="phone"><b>Số điện thoại</b></label> <input type="text"
-				placeholder="Số điện thoại" name="phone" id="phone" required>
+				placeholder="Nhập Số điện thoại" name="phone" id="phone" required>
 
-			<label for="psw"><b>Password</b></label> <input type="password"
-				placeholder="Enter Password" name="psw" id="psw" required> <label
-				for="psw-repeat"><b>Repeat Password</b></label> <input
-				type="password" placeholder="Repeat Password" name="psw-repeat"
+			<label for="psw"><b>Mật khẩu</b></label> <input type="password"
+				placeholder="Nhập Mật khẩu" name="psw" id="psw" required> <label
+				for="psw-repeat"><b>Nhập lại Mật khẩu</b></label> <input
+				type="password" placeholder="Nhập lại Mật khẩu" name="psw-repeat"
 				id="psw-repeat" required>
 			<hr>
 
