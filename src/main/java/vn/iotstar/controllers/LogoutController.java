@@ -25,8 +25,10 @@ public class LogoutController extends HttpServlet{
 		
 		HttpSession session = req.getSession();
 		session.removeAttribute("account");
+		resp.sendRedirect("home");
 
-		Cookie[] cookies = req.getCookies();
+
+		/*Cookie[] cookies = req.getCookies();
 
 		if(cookies != null){
 			for (Cookie cookie : cookies) {
@@ -45,6 +47,7 @@ public class LogoutController extends HttpServlet{
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+	}*/
 	}
 
 }
